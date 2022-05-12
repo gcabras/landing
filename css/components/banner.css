@@ -1,0 +1,33 @@
+.banner {
+  position: relative;
+  background-image: url("../../images/tailored-gin-tonic-for.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 200px 0;
+}
+
+.banner #name{
+  color: #141311;
+  font-size: 50px;
+  font-family: "Macondo";
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+
+.banner h1{
+  color: #141311;
+  font-size: 70px;
+  font-family: "Montserrat Alternates";
+  font-weight: bold;
+}
+
+.banner p {
+  color: #141311;
+  font-family: "Lora";
+  font-size: 25px;
+}

@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Macondo&family=Montserrat+Alternates&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+
+@import url('components/button.css');
+
+@import url('components/card.css');
+
+@import url('components/footer.css');
+/* Utilities */
+
+@media (min-width: 920px) {
+  .body {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat Alternates";
+}
+
+p {
+  font-family: "Lora";
+}
+
+a {
+  text-decoration: none;
+  color:#232220;
+  font-size: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container h2{
+  font-size: 30px;
+}

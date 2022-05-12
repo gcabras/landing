@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.card-landing {
+  width: 380px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-size: 13px;
+  margin: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.card-landing img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  object-fit: center;
+}
